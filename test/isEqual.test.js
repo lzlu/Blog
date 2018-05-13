@@ -1,5 +1,5 @@
 import test from 'ava';
-import isEqual from '../src/isEqual';
+import isEqual from '../src/blog-1/isEqual';
 test('trueEqualTest', t => {
     let a = {
         a: 1,

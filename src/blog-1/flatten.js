@@ -2,7 +2,7 @@
  *  var arr = [1, [2, [3, 4]]];
  *  console.log(flatten(arr)) // [1, 2, 3, 4]
  */
-import { isArray } from './Type';
+import { isArray } from '../helper/Type';
 const flatten = arr => {
     let arrResult = [];
     for (let i = 0; i < arr.length; i++) {

@@ -11,7 +11,7 @@ import {
     isObject,
     isFunction,
     isPrimitive
-} from '../src/Type';
+} from '../src/helper/Type';
 const fn = ()=>{
     return 123;  
   };

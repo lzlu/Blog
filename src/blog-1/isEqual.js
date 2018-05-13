@@ -1,5 +1,5 @@
 //对比两个对象是否相等
-import { isPrimitive, isArray, isObject, type, isUndefined } from './Type';
+import { isPrimitive, isArray, isObject, type, isUndefined } from '../helper/Type';
 const eq = (target, source) => {
     if (isPrimitive(target)) {
         if (Object.is(target, source)) return true;
